@@ -4,7 +4,7 @@
 import shutil
 import os
 
-if __name__ == "__main__":
+def clone():
     ruta_origen = input('entre la ruta origen del modulo a clonar: ')
     new_module_name = input('escriba el nuevo nombre del modulo: ')
     ruta_destino = os.path.dirname(ruta_origen)
